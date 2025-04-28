@@ -1,0 +1,1035 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "OPD-CONSULTATION-3207",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2025-04-04T12:13:01Z",
+    "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"],
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+      "code" : "V",
+      "display" : "very restricted"
+    }]
+  },
+  "identifier" : {
+    "system" : "http://hip.in",
+    "value" : "567c55ac-e9dc-430f-a800-61ded1e456e2"
+  },
+  "type" : "document",
+  "timestamp" : "2025-04-04T12:31:24.718Z",
+  "entry" : [{
+    "fullUrl" : "urn:uuid:43b45aba-e07e-450a-8b78-a7a74d63ba5f",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "43b45aba-e07e-450a-8b78-a7a74d63ba5f",
+      "meta" : {
+        "versionId" : "1",
+        "lastUpdated" : "2025-04-04T12:13:01Z",
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/OPConsultRecord"]
+      },
+      "language" : "en-IN",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-IN\" lang=\"en-IN\"><p><b>Generated Narrative: Composition</b><a name=\"43b45aba-e07e-450a-8b78-a7a74d63ba5f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;43b45aba-e07e-450a-8b78-a7a74d63ba5f&quot; Version &quot;1&quot; Updated &quot;2020-07-11 15:32:26+0530&quot;  (Language &quot;en-IN&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-OPConsultRecord.html\">OPConsultRecord</a></p></div><p><b>identifier</b>: <code>https://ndhm.in/phr</code>/645bb0c3-ff7e-4123-bef5-3852a4784813</p><p><b>status</b>: final</p><p><b>type</b>: Clinical Consultation report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#371530004 &quot;Clinical consultation report&quot;)</span></p><p><b>encounter</b>: <a href=\"#Encounter_a84bc585-a618-420b-ba92-98acf97c1506\">See above (urn:uuid:a84bc585-a618-420b-ba92-98acf97c1506: Encounter)</a></p><p><b>date</b>: 2020-07-12 15:32:26+0530</p><p><b>author</b>: <a href=\"#Practitioner_375003fb-f56d-4641-a0de-f87aa1da3f76\">See above (urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76: Dr Amruta kadam)</a></p><p><b>title</b>: Consultation Report</p><p><b>custodian</b>: <a href=\"#Organization_928a6d70-b826-4432-9c9b-686cbfe94520\">See above (urn:uuid:928a6d70-b826-4432-9c9b-686cbfe94520: Chhota Sion Hospital)</a></p></div>"
+      },
+      "identifier" : {
+        "system" : "https://ndhm.in/phr",
+        "value" : "645bb0c3-ff7e-4123-bef5-3852a4784813"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "371530004",
+          "display" : "Clinical consultation report"
+        }],
+        "text" : "Clinical Consultation report"
+      },
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Madhura Adwant"
+      },
+      "encounter" : {
+        "reference" : "urn:uuid:a84bc585-a618-420b-ba92-98acf97c1506",
+        "display" : "Encounter"
+      },
+      "date" : "2025-04-04T12:13:01Z",
+      "author" : [{
+        "reference" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+        "display" : "Dr Amruta kadam"
+      }],
+      "title" : "Consultation Report",
+      "custodian" : {
+        "reference" : "urn:uuid:928a6d70-b826-4432-9c9b-686cbfe94520",
+        "display" : "Chhota Sion Hospital"
+      },
+      "section" : [
+      	 
+      	{
+        "title" : "Chief complaints",
+        "code" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "422843007",
+            "display" : "Chief complaint section"
+          }]
+        },
+        "entry" : [
+	        
+	        {
+	          "reference" : "urn:uuid:c90cd6c6-25aa-449d-a463-9635dbb0dcc0",
+	          "display" : "Condition"
+	        }
+	        
+        ]
+      },
+      
+       
+	      {
+	        "title" : "Medical History",
+	        "code" : {
+	          "coding" : [{
+	            "system" : "http://snomed.info/sct",
+	            "code" : "371529009",
+	            "display" : "History and physical report"
+	          }]
+	        },
+	        "entry" : [
+	        	
+		        {
+		          "reference" : "urn:uuid:ad926ec6-903a-4fdb-81fb-a2017d6e7e1b",
+		          "display" : "Condition"
+		        },
+		        {
+		          "reference" : "urn:uuid:d5e2f870-2f8d-4cf9-9fce-e6d1e8514696",
+		          "display" : "Condition"
+		        },
+		        {
+		          "reference" : "urn:uuid:8b0124f6-fbb3-40ae-b6db-f92e51036617",
+		          "display" : "Condition"
+		        },
+		        {
+		          "reference" : "urn:uuid:9f4d8708-a54e-4f26-a314-7a5329269002",
+		          "display" : "Condition"
+		        }
+		        
+		     ]
+	      },
+      
+      
+	      {
+	        "title" : "Allergies",
+	         "code" : {
+              "coding" : [
+                {
+                  "system" : "http://snomed.info/sct",
+                  "code" : "722446000",
+                  "display" : "Allergy record"
+                }
+              ]
+            },
+	        "entry" : [
+	        	
+		        {
+		          "reference" : "urn:uuid:d6e0b640-1fda-41ae-871e-405794c3083a",
+		          "display" : "AllergyIntolerance"
+		        }
+		        
+		     ]
+	      },
+      
+      
+	      {
+	        "title" : "Procedure",
+	        "code" : {
+	          "coding" : [{
+                  "system" : "http://snomed.info/sct",
+                  "code" : "371525003",
+                  "display" : "Clinical procedure report"
+                }]
+	        },
+	        "entry" : [
+	        	
+		        {
+		          "reference" : "urn:uuid:e82f9945-fac4-4593-9a8b-761ee1af4e8a",
+		          "display" : "Procedure"
+		        }
+		        
+		     ]
+	      },
+      
+       
+      {
+        "title" : "Investigation Advice",
+        "code" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "721963009",
+            "display" : "Order document"
+          }]
+        },
+        "entry" : [ 
+         
+        {
+          "reference" : "urn:uuid:a507529d-b0c4-43da-acf4-9f8cd1b858c2",
+          "display" : "ServiceRequest"
+        },
+        {
+          "reference" : "urn:uuid:cdf76c41-65bd-4748-a960-aae6724badb9",
+          "display" : "ServiceRequest"
+        },
+        {
+          "reference" : "urn:uuid:ffebdf85-d0c5-42c5-a55a-69d8e5f9c009",
+          "display" : "ServiceRequest"
+        }
+        
+        ]
+      },
+      
+      
+      {
+        "title" : "Medications",
+        "code" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "721912009",
+            "display" : "Medication summary document"
+          }]
+        },
+        "entry" : [{
+          "reference" : "urn:uuid:78d73c87-0221-4330-9768-1eb518cc520f",
+          "display" : "MedicationStatement"
+        },
+        
+        {
+          "reference" : "urn:uuid:0466a4a8-08dc-4e9c-97c2-bea454b55901",
+          "display" : "MedicationRequest"
+        }
+        
+        ]
+      },
+      
+      {
+        "title" : "Procedure",
+        "code" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "371525003",
+            "display" : "Clinical procedure report"
+          }]
+        },
+        "entry" : [{
+          "reference" : "urn:uuid:1cba7eda-9163-4a85-ac35-ea551f9e8eb0",
+          "display" : "Procedure"
+        }]
+      },
+      
+      {
+        "title" : "Follow Up",
+        "code" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "736271009",
+            "display" : "Outpatient care plan"
+          }]
+        },
+        "entry" : [{
+          "reference" : "urn:uuid:f11c5c80-d9d7-4eb7-8900-efc8b4349084",
+          "display" : "Appointment"
+        }]
+      },
+      
+      {
+        "title" : "Document Reference",
+        "code" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "371530004",
+            "display" : "Clinical consultation report"
+          }]
+        },
+        "entry" : [{
+          "reference" : "urn:uuid:44486a09-bcad-420b-ba14-b769fafb7f84",
+          "display" : "DocumentReference"
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+    "resource" : {
+      "resourceType" : "Practitioner",
+      "id" : "375003fb-f56d-4641-a0de-f87aa1da3f76",
+      "meta" : {
+        "versionId" : "1",
+        "lastUpdated" : "2020-07-13T15:32:26.605+05:30",
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-IN\" lang=\"en-IN\">Dr Amruta kadam</div>"
+      },
+      "identifier" : [{
+        "type" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code" : "MD",
+            "display" : "Medical License number"
+          }]
+        },
+        "system" : "https://doctor.ndhm.gov.in",
+        "value" : "123456"
+      }],
+      "name" : [{
+        "text" : "Dr Amruta kadam"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:928a6d70-b826-4432-9c9b-686cbfe94520",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "928a6d70-b826-4432-9c9b-686cbfe94520",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"928a6d70-b826-4432-9c9b-686cbfe94520\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;928a6d70-b826-4432-9c9b-686cbfe94520&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Organization.html\">Organization</a></p></div><p><b>identifier</b>: Provider number/4567823</p><p><b>name</b>: Chhota Sion Hospital</p><p><b>telecom</b>: <a href=\"tel:\"></a>, <a href=\"mailto:\"></a></p></div>"
+      },
+      "identifier" : [{
+        "type" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code" : "PRN",
+            "display" : "Provider number"
+          }]
+        },
+        "system" : "https://facility.ndhm.gov.in",
+        "value" : "123456"
+      }],
+      "address":[{"text":"Mumbai,Maharashtra,India"}],
+      "name" : "Chhota Sion Hospital",
+      "telecom" : [ ]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+      "meta" : {
+        "versionId" : "1",
+        "lastUpdated" : "2020-07-14T14:58:58.181+05:30",
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0&quot; Version &quot;1&quot; Updated &quot;2020-07-15 14:58:58+0530&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Patient.html\">Patient</a></p></div><p><b>identifier</b>: Medical record number/22-7225-4829-5255</p><p><b>name</b>: Madhura Adwant</p><p><b>telecom</b>: <a href=\"tel:+919818512600\">+919818512600</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1981-01-12</p></div>"
+      },
+      "identifier" : [{
+        "type" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code" : "MR",
+            "display" : "Medical record number"
+          }]
+        },
+        "system" : "https://healthid.ndhm.gov.in",
+        "value" : "22-7225-4829-5255"
+      }],
+      "name" : [{
+        "text" : "Madhura Adwant"
+      }],
+       
+      "telecom" : [{
+        "system" : "phone",
+        "value" : "8275514327",
+        "use" : "home"
+      }],
+      
+      "gender" : "female"
+      
+      ,
+      "birthDate" : "1995-03-22"
+      
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:a84bc585-a618-420b-ba92-98acf97c1506",
+    "resource" : {
+      "resourceType" : "Encounter",
+      "id" : "a84bc585-a618-420b-ba92-98acf97c1506",
+      "meta" : {
+        "lastUpdated" : "2020-07-16T14:58:58.181+05:30",
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Encounter"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Encounter</b><a name=\"a84bc585-a618-420b-ba92-98acf97c1506\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Encounter &quot;a84bc585-a618-420b-ba92-98acf97c1506&quot; Updated &quot;2020-07-17 14:58:58+0530&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Encounter.html\">Encounter</a></p></div><p><b>identifier</b>: <code>https://ndhm.in</code>/S100</p><p><b>status</b>: finished</p><p><b>class</b>: ambulatory (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code AMB = 'ambulatory', stated as 'ambulatory')</p><p><b>subject</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Patient)</a></p><p><b>period</b>: 2020-07-18 14:58:58+0530 --&gt; (ongoing)</p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"#Condition_1\">See above (urn:uuid:b650b103-5eee-43c3-b53a-228872e77488: Condition)</a></p><p><b>use</b>: Chief complaint <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#33962009)</span></p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"#Condition_555ae62e-12b7-4b6c-927c-50f391a69d0e\">See above (urn:uuid:555ae62e-12b7-4b6c-927c-50f391a69d0e: Condition)</a></p><p><b>use</b>: Preliminary diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#148006)</span></p></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://ndhm.in",
+        "value" : "S100"
+      }],
+      "status" : "finished",
+      "class" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code" : "AMB",
+        "display" : "ambulatory"
+      },
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      },
+      "period" : {
+        "start" : "2025-04-04T12:31:24.718Z"
+      },
+      "diagnosis" : [{
+        "condition" : {
+          "reference" : "urn:uuid:b650b103-5eee-43c3-b53a-228872e77488",
+          "display" : "Condition"
+        },
+        "use" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "33962009",
+            "display" : "Chief complaint"
+          }]
+        }
+      },
+      {
+        "condition" : {
+          "reference" : "urn:uuid:555ae62e-12b7-4b6c-927c-50f391a69d0e",
+          "display" : "Condition"
+        },
+        "use" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "148006",
+            "display" : "Preliminary diagnosis"
+          }]
+        }
+      }]
+    }
+  },
+  
+  {
+    "fullUrl" : "urn:uuid:f11c5c80-d9d7-4eb7-8900-efc8b4349084",
+    "resource" : {
+      "resourceType" : "Appointment",
+      "id" : "1",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Appointment"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Appointment</b><a name=\"1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Appointment &quot;1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Appointment.html\">Appointment</a></p></div><p><b>status</b>: booked</p><p><b>serviceCategory</b>: General medical practice <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#408443003)</span></p><p><b>serviceType</b>: Consultation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#11429006)</span></p><p><b>appointmentType</b>: Follow-up visit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#185389009)</span></p><p><b>description</b>: checkup</p><p><b>start</b>: 2025-04-04</p><p><b>end</b>: 2025-04-05</p><p><b>created</b>: 2025-04-04T12:13:01Z</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Patient)</a></p><p><b>status</b>: accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"#Practitioner_375003fb-f56d-4641-a0de-f87aa1da3f76\">See above (urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76: Practitioner)</a></p><p><b>status</b>: accepted</p></blockquote></div>"
+      },
+      "status" : "booked",
+      "serviceCategory" : [{
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "408443003",
+          "display" : "General medical practice"
+        }]
+      }],
+      "serviceType" : [{
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "11429006",
+          "display" : "Consultation"
+        }]
+      }],
+      "appointmentType" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "185389009",
+          "display" : "Follow-up visit"
+        }]
+      },
+     
+      "description" : "checkup",
+      "start" : "2025-04-04",
+      "end" : "2025-04-05",
+      "created" : "2025-04-04T12:13:01Z",
+     "participant" : [{
+        "actor" : {
+          "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+          "display" : "Patient"
+        },
+        "status" : "accepted"
+      },
+      {
+        "actor" : {
+          "reference" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+          "display" : "Practitioner"
+        },
+        "status" : "accepted"
+      }]
+    }
+  },
+  
+  
+    
+  {
+    "fullUrl" : "urn:uuid:c90cd6c6-25aa-449d-a463-9635dbb0dcc0",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "1",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Condition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Condition.html\">Condition</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Foot swelling <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#297142003)</span></p><p><b>subject</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Patient)</a></p></div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "297142003",
+          "display" : "Fever"
+        }],
+        "text" : "Fever"
+      },
+      "recordedDate" : "2025-04-04T12:31:24.718Z",
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      }
+    }
+  },
+  
+  
+   
+	 
+	 {
+      "fullUrl" : "urn:uuid:e82f9945-fac4-4593-9a8b-761ee1af4e8a",
+      "resource" : {
+        "resourceType" : "Procedure",
+        "id" : "1cba7eda-9163-4a85-ac35-ea551f9e8eb0",
+        "meta" : {
+          "profile" : [
+             "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Procedure"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"1cba7eda-9163-4a85-ac35-ea551f9e8eb0\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;1cba7eda-9163-4a85-ac35-ea551f9e8eb0&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Procedure.html\">Procedure</a></p></div><p><b>status</b>: completed</p><p><b>code</b>: Assessment of diabetic foot ulcer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#713130008)</span></p><p><b>subject</b>: <a href=\"#Patient_f8d9e19e-5598-428c-ae03-b1cd44968b41\">See above (urn:uuid:f8d9e19e-5598-428c-ae03-b1cd44968b41: Patient)</a></p><p><b>performed</b>: 2019-05-12</p><p><b>followUp</b>: Diabetes medication review <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#394725008)</span></p></div>"
+        },
+        "status" : "completed",
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://snomed.info/sct",
+              "code" : "713130008",
+              "display" : "checkup "
+            }
+          ],
+          "text" : "checkup "
+        },
+        "subject" : {
+          "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+          "display" : "Patient"
+        },
+        "performedDateTime" : "2025-04-04T12:23:23.000Z",
+        "followUp" : [
+          {
+            "coding" : [
+              {
+                "system" : "http://snomed.info/sct",
+                "code" : "394725008",
+                "display" : "yes"
+              }
+            ],
+            "text" : "yes"
+          }
+        ]
+      }
+    }, 
+	
+  
+  
+	  {
+      "fullUrl" : "urn:uuid:d6e0b640-1fda-41ae-871e-405794c3083a",
+      "resource" : {
+        "resourceType" : "AllergyIntolerance",
+        "id" : "ee04915e-4df7-40a8-918c-a003368dd2cd",
+        "meta" : {
+          "profile" : [
+             "https://nrces.in/ndhm/fhir/r4/StructureDefinition/AllergyIntolerance"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"ee04915e-4df7-40a8-918c-a003368dd2cd\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AllergyIntolerance &quot;ee04915e-4df7-40a8-918c-a003368dd2cd&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AllergyIntolerance.html\">AllergyIntolerance</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>code</b>: NKA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#716186003 &quot;No known allergy&quot;)</span></p><p><b>patient</b>: <a href=\"#Patient_f8d9e19e-5598-428c-ae03-b1cd44968b41\">See above (urn:uuid:f8d9e19e-5598-428c-ae03-b1cd44968b41: Patient)</a></p><p><b>recordedDate</b>: 2025-04-04</p><p><b>recorder</b>: <a href=\"#Practitioner_dc36f7c9-7ea5-4984-a02e-7102c215db17\">See above (urn:uuid:dc36f7c9-7ea5-4984-a02e-7102c215db17: Practitioner)</a></p><p><b>note</b>: The patient reports no other known allergy.</p></div>"
+        },
+        "clinicalStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code" : "active",
+              "display" : "true"
+            }
+          ],
+          "text":"true"
+        },
+        "verificationStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code" : "confirmed",
+              "display" : "verified"
+            }
+          ],
+          "text":"verified"
+        },
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://snomed.info/sct",
+              "code" : "716186003",
+              "display" : "smoke"
+            }
+          ],
+          "text" : "smoke"
+        },
+        "patient" : {
+          "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+          "display" : "Patient"
+        },
+        "recordedDate" : "2025-04-04T12:31:24.718Z",
+        "recorder" : {
+          "reference" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+          "display" : "Practitioner"
+        },
+        "note" : [
+          {
+            "text" : ""
+          }
+        ]
+      }
+    },
+	
+  
+	 
+	    
+  {
+    "fullUrl" : "urn:uuid:ad926ec6-903a-4fdb-81fb-a2017d6e7e1b",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "2",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Condition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-IN\" lang=\"en-IN\">Past Medical Problem of Diabetes mellitus type 1</div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "recurrence",
+          "display" : "Recurrence"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "46635009",
+          "display" : "koch: yes"
+        }],
+        "text" : "koch: yes"
+      },
+      "recordedDate" : "2025-04-04T12:31:24.718Z",
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:d5e2f870-2f8d-4cf9-9fce-e6d1e8514696",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "2",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Condition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-IN\" lang=\"en-IN\">Past Medical Problem of Diabetes mellitus type 1</div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "recurrence",
+          "display" : "Recurrence"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "46635009",
+          "display" : "Koch contact: no"
+        }],
+        "text" : "Koch contact: no"
+      },
+      "recordedDate" : "2025-04-04T12:31:24.718Z",
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:8b0124f6-fbb3-40ae-b6db-f92e51036617",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "2",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Condition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-IN\" lang=\"en-IN\">Past Medical Problem of Diabetes mellitus type 1</div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "recurrence",
+          "display" : "Recurrence"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "46635009",
+          "display" : "Hospitalisation: yes"
+        }],
+        "text" : "Hospitalisation: yes"
+      },
+      "recordedDate" : "2025-04-04T12:31:24.718Z",
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:9f4d8708-a54e-4f26-a314-7a5329269002",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "2",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/Condition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-IN\" lang=\"en-IN\">Past Medical Problem of Diabetes mellitus type 1</div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "recurrence",
+          "display" : "Recurrence"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "46635009",
+          "display" : "Surgery: no"
+        }],
+        "text" : "Surgery: no"
+      },
+      "recordedDate" : "2025-04-04T12:31:24.718Z",
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      }
+    }
+  },
+  
+  
+ 
+   
+	    
+  {
+    "fullUrl" : "urn:uuid:a507529d-b0c4-43da-acf4-9f8cd1b858c2",
+    "resource" : {
+      "resourceType" : "ServiceRequest",
+      "id" : "a507529d-b0c4-43da-acf4-9f8cd1b858c2",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/ServiceRequest"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"3875cb2d-c589-41d8-87c2-1f488e743184\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;3875cb2d-c589-41d8-87c2-1f488e743184&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequest.html\">ServiceRequest</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: Laboratory procedure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#108252007)</span></p><p><b>code</b>: Fasting lipid profile <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#252150008)</span></p><p><b>subject</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Patient)</a></p><p><b>authoredOn</b>: 2020-07-24 15:32:26+0530</p><p><b>requester</b>: <a href=\"#Practitioner_375003fb-f56d-4641-a0de-f87aa1da3f76\">See above (urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76: Dr Amruta kadam)</a></p></div>"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "108252007",
+          "display" : "Laboratory procedure"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "252150008",
+          "display" : "Hematology test: CBC,ESR,PLATELET COUNT"
+        }],
+        "text" : "Hematology test: CBC,ESR,PLATELET COUNT"
+      },
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      },
+      "authoredOn" : "2025-04-04T12:31:24.718Z",
+      "requester" : {
+        "reference" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+        "display" : "Dr Amruta kadam"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:cdf76c41-65bd-4748-a960-aae6724badb9",
+    "resource" : {
+      "resourceType" : "ServiceRequest",
+      "id" : "cdf76c41-65bd-4748-a960-aae6724badb9",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/ServiceRequest"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"3875cb2d-c589-41d8-87c2-1f488e743184\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;3875cb2d-c589-41d8-87c2-1f488e743184&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequest.html\">ServiceRequest</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: Laboratory procedure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#108252007)</span></p><p><b>code</b>: Fasting lipid profile <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#252150008)</span></p><p><b>subject</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Patient)</a></p><p><b>authoredOn</b>: 2020-07-24 15:32:26+0530</p><p><b>requester</b>: <a href=\"#Practitioner_375003fb-f56d-4641-a0de-f87aa1da3f76\">See above (urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76: Dr Amruta kadam)</a></p></div>"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "108252007",
+          "display" : "Laboratory procedure"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "252150008",
+          "display" : "Clinical pathology test: URINE CHYLOMICRON,BODY FLUID ROUTINE AND MICROSCOPY"
+        }],
+        "text" : "Clinical pathology test: URINE CHYLOMICRON,BODY FLUID ROUTINE AND MICROSCOPY"
+      },
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      },
+      "authoredOn" : "2025-04-04T12:31:24.718Z",
+      "requester" : {
+        "reference" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+        "display" : "Dr Amruta kadam"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:ffebdf85-d0c5-42c5-a55a-69d8e5f9c009",
+    "resource" : {
+      "resourceType" : "ServiceRequest",
+      "id" : "ffebdf85-d0c5-42c5-a55a-69d8e5f9c009",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/ServiceRequest"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"3875cb2d-c589-41d8-87c2-1f488e743184\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;3875cb2d-c589-41d8-87c2-1f488e743184&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequest.html\">ServiceRequest</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: Laboratory procedure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#108252007)</span></p><p><b>code</b>: Fasting lipid profile <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#252150008)</span></p><p><b>subject</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Patient)</a></p><p><b>authoredOn</b>: 2020-07-24 15:32:26+0530</p><p><b>requester</b>: <a href=\"#Practitioner_375003fb-f56d-4641-a0de-f87aa1da3f76\">See above (urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76: Dr Amruta kadam)</a></p></div>"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "108252007",
+          "display" : "Laboratory procedure"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "252150008",
+          "display" : "Extremity X-ray Report"
+        }],
+        "text" : "Extremity X-ray Report"
+      },
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      },
+      "authoredOn" : "2025-04-04T12:31:24.718Z",
+      "requester" : {
+        "reference" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+        "display" : "Dr Amruta kadam"
+      }
+    }
+  },
+  
+  
+  {
+    "fullUrl" : "urn:uuid:78d73c87-0221-4330-9768-1eb518cc520f",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "78d73c87-0221-4330-9768-1eb518cc520f",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/MedicationStatement"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"78d73c87-0221-4330-9768-1eb518cc520f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;78d73c87-0221-4330-9768-1eb518cc520f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MedicationStatement.html\">MedicationStatement</a></p></div><p><b>status</b>: completed</p><p><b>medication</b>: Telmisartan 20 mg oral tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#134463001)</span></p><p><b>subject</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Patient)</a></p><p><b>dateAsserted</b>: 2020-02-02 14:58:58+0530</p></div>"
+      },
+      "status" : "completed",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "134463001",
+          "display" : "-"
+        }]
+      },
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      },
+      "dateAsserted" : "2025-04-04T12:13:01Z"
+    }
+  },
+  
+  {
+    "fullUrl" : "urn:uuid:0466a4a8-08dc-4e9c-97c2-bea454b55901",
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "0466a4a8-08dc-4e9c-97c2-bea454b55901",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/MedicationRequest"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationRequest</b><a name=\"78d73c87-0221-4330-9768-1eb518cc520f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationRequest &quot;0466a4a8-08dc-4e9c-97c2-bea454b55901&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MedicationRequest.html\">MedicationRequest</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>medication</b>: Neomycin 5 mg/g cutaneous ointment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#353231006)</span></p><p><b>subject</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Madhura Adwant)</a></p><p><b>authoredOn</b>: 2025-04-04</p><p><b>requester</b>: <a href=\"#Practitioner_375003fb-f56d-4641-a0de-f87aa1da3f76\">See above (urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76: Dr Amruta kadam)</a></p><p><b>reasonReference</b>: <a href=\"#Condition_1\">See above (urn:uuid:b650b103-5eee-43c3-b53a-228872e77488: Condition)</a></p><h3>DosageInstructions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>AdditionalInstruction</b></td><td><b>Route</b></td></tr><tr><td style=\"display: none\">*</td><td>Twice a day <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#229799001)</span></td><td>Topical route <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#6064005)</span></td></tr></table></div>"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "353231006",
+          "display" : "Tablet paracetamol  500mg - strip 10 tab"
+        }],
+        "text" : "Tablet paracetamol  500mg - strip 10 tab"
+      },
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Madhura Adwant"
+      },
+      "authoredOn" : "2025-04-04T12:31:24.718Z",
+      "requester" : {
+        "reference" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+        "display" : "Dr Amruta kadam"
+      },
+      "reasonCode" : [{
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "789400009",
+          "display" : "."
+        }]
+      }],
+      "dosageInstruction" : [{
+      	"text" : "Before Breakfast",
+        "additionalInstruction" : [{
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "229799001",
+            "display": "Quantity: 2"
+          }],
+		  "text": "Quantity: 2"
+        }],
+        "route" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "6064005",
+            "display": "Dosage: Before Breakfast"
+          }],
+          "text": "Dosage: Before Breakfast"
+        },
+        "method": {
+          "coding": [ {
+            "display": "Number Of Days: 2"
+          } ],
+		"text": "Number Of Days: 2"
+        }
+      }]
+    }
+  },
+  
+  {
+    "fullUrl" : "urn:uuid:44486a09-bcad-420b-ba14-b769fafb7f84",
+    "resource" : {
+      "resourceType" : "DocumentReference",
+      "id" : "44486a09-bcad-420b-ba14-b769fafb7f84",
+      "meta" : {
+        "profile" : ["https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentReference"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: DocumentReference</b><a name=\"44486a09-bcad-420b-ba14-b769fafb7f84\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource DocumentReference &quot;44486a09-bcad-420b-ba14-b769fafb7f84&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-DocumentReference.html\">DocumentReference</a></p></div><p><b>status</b>: current</p><p><b>docStatus</b>: final</p><p><b>type</b>: Laboratory report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#4241000179101)</span></p><p><b>subject</b>: <a href=\"#Patient_9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0\">See above (urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0: Patient)</a></p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ContentType</b></td><td><b>Language</b></td><td><b>Data</b></td><td><b>Title</b></td><td><b>Creation</b></td></tr><tr><td style=\"display: none\">*</td><td>application/pdf</td><td>en-IN</td><td>(base64 data - 302995 bytes)</td><td>Laboratory report</td><td>2019-05-29 14:58:58+0530</td></tr></table></blockquote></div>"
+      },
+      "status" : "current",
+      "docStatus" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "4241000179101",
+          "display" : "Laboratory report"
+        }],
+        "text" : "OPD Case Paper"
+      },
+      "subject" : {
+        "reference" : "urn:uuid:9dfd6d8c-4a2f-441e-b082-fe6fc4a3b9c0",
+        "display" : "Patient"
+      },
+      "content" : [{
+        "attachment" : {
+          "contentType" : "application/pdf",
+          "language" : "en-IN",
+          "data" :"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Dbfr9S45/f7z8aDcPcmUtczZXb8nbzSszUyRq8h9crLdvx1WM/K5TZj5+5NP6247TN9itV3XRIzN8qKspkLa/jYod5u8nH1XLGbfbh53q8Pbfj3pXfdUllvZsN/Wu3u3DZKL1d3TZrdObj5N5i3TxqRWtuzu5Z7vgb4ltvSPdt3Pwl0hM3fzaPPkbpv8tNk+ZsnZS3LT/79YN4v/A6xfyvsKZW5kc3RyZWFtCmVuZG9iagoxMiAwIG9iago8PC9Db250ZW50cyAxMyAwIFIvVHlwZS9QYWdlL1Jlc291cmNlczw8L0ZvbnQ8PC9GMSA0IDAgUi9GMiA2IDAgUj4+L1hPYmplY3Q8PC9pbWcyIDExIDAgUj4+Pj4vUGFyZW50IDggMCBSL01lZGlhQm94WzAgMCA2MTIgNzkyXT4+CmVuZG9iagoxOCAwIG9iago8PC9EZXN0WzEgMCBSL1hZWiAwIDQ4OS43NSAwXS9OZXh0IDE5IDAgUi9UaXRsZShWaXRhbCBTaWduczopL1BhcmVudCAxNyAwIFI+PgplbmRvYmoKMTkgMCBvYmoKPDwvRGVzdFsxIDAgUi9YWVogMCA0NzUuNDYgMF0vTmV4dCAyMCAwIFIvVGl0bGUoQWxjb2hvbCBNZWFzdXJlbWVudCkvUGFyZW50IDE3IDAgUi9QcmV2IDE4IDAgUj4+CmVuZG9iagoyMCAwIG9iago8PC9EZXN0WzEgMCBSL1hZWiAwIDM0OS40MiAwXS9OZXh0IDIxIDAgUi9UaXRsZShLRU0gMDEgaW1hZ2UpL1BhcmVudCAxNyAwIFIvUHJldiAxOSAwIFI+PgplbmRvYmoKMjEgMCBvYmoKPDwvRGVzdFsxIDAgUi9YWVogMCAzMTkuMzUgMF0vTmV4dCAyMiAwIFIvVGl0bGUoSy9DL08pL1BhcmVudCAxNyAwIFIvUHJldiAyMCAwIFI+PgplbmRvYmoKMjIgMCBvYmoKPDwvRGVzdFsxIDAgUi9YWVogMCAyNTkuMiAwXS9OZXh0IDIzIDAgUi9UaXRsZShQQVNUIEhJU1RPUlkpL1BhcmVudCAxNyAwIFIvUHJldiAyMSAwIFI+PgplbmRvYmoKMjMgMCBvYmoKPDwvRGVzdFsxIDAgUi9YWVogMCAxODYuMjYgMF0vTmV4dCAyNCAwIFIvVGl0bGUoR0VORVJBTCBFWEFNSU5BVElPTikvUGFyZW50IDE3IDAgUi9QcmV2IDIyIDAgUj4+CmVuZG9iagoyNCAwIG9iago8PC9EZXN0WzEgMCBSL1hZWiAwIDE0MS45IDBdL05leHQgMjUgMCBSL1RpdGxlKElOVkVTVElHQVRJT04pL1BhcmVudCAxNyAwIFIvUHJldiAyMyAwIFI+PgplbmRvYmoKMjUgMCBvYmoKPDwvRGVzdFsxIDAgUi9YWVogMCA4MC4yNSAwXS9OZXh0IDI2IDAgUi9UaXRsZShSRUZFUiBUTyBPUEQpL1BhcmVudCAxNyAwIFIvUHJldiAyNCAwIFI+PgplbmRvYmoKMjYgMCBvYmoKPDwvRGVzdFsxIDAgUi9YWVogMCA1MC4xNyAwXS9OZXh0IDI3IDAgUi9UaXRsZShJTU1VTklaQVRJT04gY29weSkvUGFyZW50IDE3IDAgUi9QcmV2IDI1IDAgUj4+CmVuZG9iagoyNyAwIG9iago8PC9EZXN0WzEwIDAgUi9YWVogMCA3MzMuMzUgMF0vTmV4dCAyOCAwIFIvVGl0bGUoRk9MTE9XIFVQKS9QYXJlbnQgMTcgMCBSL1ByZXYgMjYgMCBSPj4KZW5kb2JqCjI4IDAgb2JqCjw8L0Rlc3RbMTAgMCBSL1hZWiAwIDY4OC45OSAwXS9OZXh0IDI5IDAgUi9UaXRsZShCb2R5IE1lYXN1cmVtZW50KS9QYXJlbnQgMTcgMCBSL1ByZXYgMjcgMCBSPj4KZW5kb2JqCjI5IDAgb2JqCjw8L0Rlc3RbMTAgMCBSL1hZWiAwIDU4NC40NyAwXS9OZXh0IDMwIDAgUi9UaXRsZShQaHlzaWNhbCBBY3Rpdml0eSkvUGFyZW50IDE3IDAgUi9QcmV2IDI4IDAgUj4+CmVuZG9iagozMCAwIG9iago8PC9EZXN0WzEwIDAgUi9YWVogMCA0NzkuOTYgMF0vTmV4dCAzMSAwIFIvVGl0bGUoR2VuZXJhbCBBc3Nlc3NtZW50KS9QYXJlbnQgMTcgMCBSL1ByZXYgMjkgMCBSPj4KZW5kb2JqCjMxIDAgb2JqCjw8L0Rlc3RbMTAgMCBSL1hZWiAwIDM0NS4zOCAwXS9OZXh0IDMyIDAgUi9UaXRsZShMaWZlIFN0eWxlLTEpL1BhcmVudCAxNyAwIFIvUHJldiAzMCAwIFI+PgplbmRvYmoKMzIgMCBvYmoKPDwvRGVzdFsxMCAwIFIvWFlaIDAgMzAxLjAxIDBdL05leHQgMzMgMCBSL1RpdGxlKEFsbGVyZ3kpL1BhcmVudCAxNyAwIFIvUHJldiAzMSAwIFI+PgplbmRvYmoKMzMgMCBvYmoKPDwvRGVzdFsxMCAwIFIvWFlaIDAgMjQyLjM2IDBdL05leHQgMzQgMCBSL1RpdGxlKFByb2NlZHVyZSBjb3B5IGNvcHkpL1BhcmVudCAxNyAwIFIvUHJldiAzMiAwIFI+PgplbmRvYmoKMzQgMCBvYmoKPDwvRGVzdFsxMCAwIFIvWFlaIDAgMTgzLjcxIDBdL05leHQgMzUgMCBSL1RpdGxlKFZpdGFsKS9QYXJlbnQgMTcgMCBSL1ByZXYgMzMgMCBSPj4KZW5kb2JqCjM1IDAgb2JqCjw8L0Rlc3RbMTAgMCBSL1hZWiAwIDE5LjA1IDBdL05leHQgMzYgMCBSL1RpdGxlKFdvbWFuIGhlYWx0aCkvUGFyZW50IDE3IDAgUi9QcmV2IDM0IDAgUj4+CmVuZG9iagozNiAwIG9iago8PC9EZXN0WzEyIDAgUi9YWVogMCA3MzAuMzUgMF0vTmV4dCAzNyAwIFIvVGl0bGUoQmFzaWMgSGVhbHRoIENoZWNrdXAgRGV0YWlscykvUGFyZW50IDE3IDAgUi9QcmV2IDM1IDAgUj4+CmVuZG9iagozNyAwIG9iago8PC9EZXN0WzEyIDAgUi9YWVogMCA0OTYuNjUgMF0vTmV4dCAzOCAwIFIvVGl0bGUoUHJlc2NyaXB0aW9uKS9QYXJlbnQgMTcgMCBSL1ByZXYgMzYgMCBSPj4KZW5kb2JqCjM4IDAgb2JqCjw8L0Rlc3RbMTIgMCBSL1hZWiAwIDQzNy43IDBdL1RpdGxlKERvY3RvciBJbmZvcm1hdGlvbikvUGFyZW50IDE3IDAgUi9QcmV2IDM3IDAgUj4+CmVuZG9iagoxNyAwIG9iago8PC9EZXN0WzEgMCBSL1hZWiAwIDcxNC4zIDBdL0NvdW50IDIxL1RpdGxlKFRva2VuOikvUGFyZW50IDE2IDAgUi9GaXJzdCAxOCAwIFIvTGFzdCAzOCAwIFI+PgplbmRvYmoKMTYgMCBvYmoKPDwvRGVzdFsxIDAgUi9YWVogMCA3NDguNjkgMF0vQ291bnQgMjIvVGl0bGUoTC5ULk0uRy4gSG9zcGl0YWwsIFNpb24gLUlJLCBVcmJhbiBIZWFsdGggQ2VudGVyLCBEaGFyYXZpKS9QYXJlbnQgMTUgMCBSL0ZpcnN0IDE3IDAgUi9MYXN0IDE3IDAgUj4+CmVuZG9iagoxNSAwIG9iago8PC9EZXN0WzEgMCBSL1hZWiAwIDc3NS40NiAwXS9Db3VudCAyMy9UaXRsZShCcmloYW5tdW1iYWkgTXVuaWNpcGFsIENvcnBvcmF0aW9uKS9QYXJlbnQgMTQgMCBSL0ZpcnN0IDE2IDAgUi9MYXN0IDE2IDAgUj4+CmVuZG9iagoxNCAwIG9iago8PC9UeXBlL091dGxpbmVzL0NvdW50IDI0L0ZpcnN0IDE1IDAgUi9MYXN0IDE1IDAgUj4+CmVuZG9iago0IDAgb2JqCjw8L1N1YnR5cGUvVHlwZTEvVHlwZS9Gb250L0Jhc2VGb250L0hlbHZldGljYS1Cb2xkL0VuY29kaW5nL1dpbkFuc2lFbmNvZGluZz4+CmVuZG9iago2IDAgb2JqCjw8L1N1YnR5cGUvVHlwZTEvVHlwZS9Gb250L0Jhc2VGb250L0hlbHZldGljYS9FbmNvZGluZy9XaW5BbnNpRW5jb2Rpbmc+PgplbmRvYmoKOCAwIG9iago8PC9LaWRzWzEgMCBSIDEwIDAgUiAxMiAwIFJdL1R5cGUvUGFnZXMvQ291bnQgMz4+CmVuZG9iagozOSAwIG9iago8PC9QYWdlTW9kZS9Vc2VPdXRsaW5lcy9UeXBlL0NhdGFsb2cvT3V0bGluZXMgMTQgMCBSL1BhZ2VzIDggMCBSPj4KZW5kb2JqCjQwIDAgb2JqCjw8L0NyZWF0aW9uRGF0ZShEOjIwMjUwNDA0MTgwMjM4KzA1JzMwJykvUHJvZHVjZXIoT3BlblBERiAxLjMuMzkpL1RpdGxlKE1lZGljYWwgUmVwb3J0KT4+CmVuZG9iagp4cmVmCjAgNDEKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDE3OTgyIDAwMDAwIG4gCjAwMDAwMDAwMTUgMDAwMDAgbiAKMDAwMDAwMDM2NSAwMDAwMCBuIAowMDAwMDI4MjUzIDAwMDAwIG4gCjAwMDAwMTAyNTkgMDAwMDAgbiAKMDAwMDAyODM0NiAwMDAwMCBuIAowMDAwMDEzODkwIDAwMDAwIG4gCjAwMDAwMjg0MzQgMDAwMDAgbiAKMDAwMDAxODEzNyAwMDAwMCBuIAowMDAwMDIwMzA0IDAwMDAwIG4gCjAwMDAwMjA0MjYgMDAwMDAgbiAKMDAwMDAyNTM3OSAwMDAwMCBuIAowMDAwMDIyNjc1IDAwMDAwIG4gCjAwMDAwMjgxODQgMDAwMDAgbiAKMDAwMDAyODA0NiAwMDAwMCBuIAowMDAwMDI3ODg1IDAwMDAwIG4gCjAwMDAwMjc3NzYgMDAwMDAgbiAKMDAwMDAyNTUyNiAwMDAwMCBuIAowMDAwMDI1NjIwIDAwMDAwIG4gCjAwMDAwMjU3MzMgMDAwMDAgbiAKMDAwMDAyNTgzOSAwMDAwMCBuIAowMDAwMDI1OTM4IDAwMDAwIG4gCjAwMDAwMjYwNDMgMDAwMDAgbiAKMDAwMDAyNjE1NiAwMDAwMCBuIAowMDAwMDI2MjYyIDAwMDAwIG4gCjAwMDAwMjYzNjcgMDAwMDAgbiAKMDAwMDAyNjQ3NyAwMDAwMCBuIAowMDAwMDI2NTgxIDAwMDAwIG4gCjAwMDAwMjY2OTIgMDAwMDAgbiAKMDAwMDAyNjgwNCAwMDAwMCBuIAowMDAwMDI2OTE3IDAwMDAwIG4gCjAwMDAwMjcwMjQgMDAwMDAgbiAKMDAwMDAyNzEyNiAwMDAwMCBuIAowMDAwMDI3MjQwIDAwMDAwIG4gCjAwMDAwMjczNDAgMDAwMDAgbiAKMDAwMDAyNzQ0NiAwMDAwMCBuIAowMDAwMDI3NTY5IDAwMDAwIG4gCjAwMDAwMjc2NzYgMDAwMDAgbiAKMDAwMDAyODQ5OSAwMDAwMCBuIAowMDAwMDI4NTgyIDAwMDAwIG4gCnRyYWlsZXIKPDwvSW5mbyA0MCAwIFIvSUQgWzwxNmVjZTJhNDBhYTE0NmQ4MTUyOWVjNjVlYjNjMTc5NT48MTZlY2UyYTQwYWExNDZkODE1MjllYzY1ZWIzYzE3OTU+XS9Sb290IDM5IDAgUi9TaXplIDQxPj4Kc3RhcnR4cmVmCjI4Njg4CiUlRU9GCg==",
+          "title" : "OPD Case Paper",
+          "creation" : "2025-04-04T12:13:01Z"
+        }
+      }]
+    }
+  }]
+   
+  ,
+  "signature" : {
+    "type" : [{
+      "system" : "urn:iso-astm:E1762-95:2013",
+      "code" : "1.2.840.10065.1.12.1.1",
+      "display" : "Author's Signature"
+    }],
+    "when" : "2025-04-04T12:31:24.718Z",
+    "who" : {
+      "reference" : "urn:uuid:375003fb-f56d-4641-a0de-f87aa1da3f76",
+      "display" : "Practitioner"
+    },
+    "sigFormat" : "image/jpeg",
+    "data" : "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"
+  }
+  
+}
