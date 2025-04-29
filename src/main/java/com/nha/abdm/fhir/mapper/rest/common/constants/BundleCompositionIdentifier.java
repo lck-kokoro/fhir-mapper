@@ -6,7 +6,7 @@ public class BundleCompositionIdentifier {
   public static final String DISCHARGE_SUMMARY_CODE = "373942005";
   public static final String DISCHARGE_SUMMARY = "Discharge summary";
   public static final String INVESTIGATION_ADVICE = "Discharge summary";
-  public static final String CHIEF_COMPLAINTS = "Chief complaints";
+  public static final String CHIEF_COMPLAINTS = "Chief complaint section";
   public static final String CHIEF_COMPLAINTS_CODE = "422843007";
   public static final String PHYSICAL_EXAMINATION_CODE = "425044008";
   public static final String PHYSICAL_EXAMINATION = "Physical exam section";
@@ -36,17 +36,17 @@ public class BundleCompositionIdentifier {
   public static final String IMMUNIZATION_RECORD_CODE = "41000179103";
 
   // OP CONSULTATION
-  public static final String OP_CONSULTATION = "Document Reference";
+  public static final String OP_CONSULTATION = "Clinical consultation report";
   public static final String OP_CONSULTATION_CODE = "371530004";
-  public static final String HISTORY_PHYSICAL_REPORT = "Medical History";
+  public static final String HISTORY_PHYSICAL_REPORT = "History and physical report";
   public static final String HISTORY_PHYSICAL_REPORT_CODE = "371529009";
-  public static final String ORDER_DOCUMENT = "Investigation Advice";
+  public static final String ORDER_DOCUMENT = "Order document";
   public static final String ORDER_DOCUMENT_CODE = "721963009";
-  public static final String MEDICATION_SUMMARY = "Medications";
+  public static final String MEDICATION_SUMMARY = "Medication summary document";
   public static final String MEDICATION_SUMMARY_CODE = "721912009";
-  public static final String FOLLOW_UP = "Follow Up";
+  public static final String FOLLOW_UP = "Follow-up encounter";
   public static final String FOLLOW_UP_CODE = "390906007";
-  public static final String CLINICAL_PROCEDURE = "Procedure";
+  public static final String CLINICAL_PROCEDURE = "Clinical procedure report";
   public static final String CLINICAL_PROCEDURE_CODE = "371525003";
   public static final String REFERRAL_TO_SERVICE = "Referral to service";
   public static final String REFERRAL_TO_SERVICE_CODE = "306206005";
